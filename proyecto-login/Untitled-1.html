@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <tittle>Document</tittle>
+    </head>
+    <body>
+        <header>
+            <h1>Mi primer login</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">inicio</a></li>
+                    <li><a href="#">galeria</a></li>
+                    <li><a href="#">contacto</a></li>
+                    
+                    
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <form id="loginform" onsubmit="return chequeLogin(event)">
+                <input type="email" name="email" id="email" placeholder="ingresa tu contraseña">
+                <input type="password" name="password" id="password" placeholder="ingresa tu contraseña" required>
+                <input type="submit"  value="ingresar">
+            </form>
+            <p id="loginmensaje"></p>
+
+        </main>
+        <footer>todos los derechos son mios</footer>
+        <script srf="script.js"></script>
+    </body>
+
+</html>
